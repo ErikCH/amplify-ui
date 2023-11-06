@@ -15,16 +15,10 @@ const config: Config = {
   ],
   coverageThreshold: {
     global: {
-      branches: 78,
-      functions: 69.3,
-      lines: 75.39,
-      statements: 74,
-      // @todo-migration
-      // change back after fixing tests
-      // branches: 89,
-      // functions: 90,
-      // lines: 93,
-      // statements: 93,
+      branches: 89,
+      functions: 92,
+      lines: 93,
+      statements: 93,
     },
   },
   testEnvironment: 'jsdom',
